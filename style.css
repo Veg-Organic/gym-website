@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  background: #000;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+}
+
+.navbar a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  background: red;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.btn-primary {
+  background: red;
+  padding: 12px 20px;
+  margin: 10px;
+}
+
+.btn-secondary {
+  border: 1px solid white;
+  padding: 12px 20px;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.dark {
+  background: #1a1a1a;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  background: #222;
+  padding: 20px;
+}
+
+.highlight {
+  border: 2px solid red;
+}
+
+.cta {
+  background: red;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta input, .cta select {
+  padding: 10px;
+  margin: 10px;
+}
+
+.whatsapp {
+  display: inline-block;
+  margin-top: 15px;
+  background: green;
+  padding: 10px 15px;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  padding: 20px;
+}
